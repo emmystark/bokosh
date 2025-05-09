@@ -1,0 +1,174 @@
+{% extends 'kobosh/base.html' %}
+
+{% block 'content' %}
+{% load humanize %}
+
+{% load static %}
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"> -->
+    <link rel="stylesheet" href="{% static 'kobosh/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'kobosh/payments.css' %}">
+    <!------ Include the above in your HEAD tag ---------->
+    <title>Document</title>
+    <style>
+        @media screen and (max-width:767px) {
+            .icons {
+                position: relative;
+                top: 29pc;
+            }
+
+            #sub {
+                font-size: 14px;
+                width: 50%;
+                position: relative;
+                /* top: -1.6pc; */
+            }
+
+            #subtle {
+                width: 29%;
+                font-size: 10px;
+                position: relative;
+                left: -24.7px;
+                top: 20px;
+            }
+
+            .bt_right h3 {
+                margin-top: 0px;
+                height: 30px;
+                padding-top: 10px;
+                z-index: 9999;
+            }
+
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container wrapper" id="address">
+        <div>
+            <form method="POST" action="" >
+                {% csrf_token %} 
+                
+                <div class="center">
+                    <!--SHIPPING METHOD-->
+                    <div class="panel panel-info">
+                        <div class="panel-heading">Address</div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <h4>Shipping Address</h4>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Username:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" id="input1" class="form-control" name="username" value="" />
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Address:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" id="input4" name="address" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>City:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" id="input5" name="city" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>State:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" id="input6" name="state" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Zip / Postal Code:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" id="input7" name="zip_code" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-12"><strong>Phone Number:</strong></div>
+                                <div class="col-md-12">
+                                    <input type="text" id="input8" name="phone_number" class="form-control" value="" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+                    <!-- <div class=""> -->
+                    <button type="submit" id="start-payment-button" class="btn btn-primary btn-submit-fix">Add address
+                    </button>
+                    
+                    <!-- </div> -->
+                    <!--SHIPPING METHOD END-->
+                </form>
+                <br>
+                <br>
+                
+                
+        </div>
+    </div>
+</div>
+</body>
+
+    <script>
+        function checkInputs() {
+            // Get the values from the input elements
+            // let input1Value = document.getElementById("input1").value;
+            let input2Value = document.getElementById("input2").value;
+            let input3Value = document.getElementById("input3").value;
+            let input4Value = document.getElementById("input4").value;
+            let input5Value = document.getElementById("input5").value;
+            let input6Value = document.getElementById("input6").value;
+            let input7Value = document.getElementById("input7").value;
+            let input8Value = document.getElementById("input8").value;
+            let input9Value = document.getElementById("input9").value;
+
+            // Get the submit button
+            var submitButton = document.getElementById("start-payment-button");
+
+            // Enable the submit button only if all inputs are filled
+            if (input1Value && input2Value && input3Value && input4Value &&
+                input5Value && input6Value && input7Value && input8Value && input9Value) {
+                submitButton.removeAttribute("disabled");
+            } else {
+                submitButton.setAttribute("disabled", "true");
+            }
+        }
+    </script>
+
+
+    <script>
+        let selectElement = document.getElementById('mySelect');
+        selectElement.addEventListener('change', function () {
+            const selectedValue = this.value;
+            if (selectedValue !== '') {
+                window.location.href = selectedValue;
+            }
+        });
+    </script>
+
+
+</html>
+{% endblock %}
