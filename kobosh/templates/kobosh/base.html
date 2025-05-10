@@ -56,11 +56,14 @@
       <div class="all_li">
         <!-- onclick='location.href="{% url 'kobosh:cate' %}"' -->
         <li id="dt" class="onhover"   | escapejs>CATEGORIES <i class="fa-solid fa-chevron-down"></i></li> 
-
-      <div name="" id="mySelect" >
+        
+        
+        <div name="" id="mySelect" >
+        {% comment %}
         {% for c in categories %}
         <div id="list" onclick='location.href="{{ c.get_absolute_url }}"' | escapejs>{{ c.name }}</div>
         {% endfor %}
+        {% endcomment %}
       </div>
       </div>
 
