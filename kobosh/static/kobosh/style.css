@@ -51,7 +51,7 @@
         color: white;
     }
     #mySelect option {
-        background-color: #AF9331;
+        background-color: black;
         position: relative;
         color: white;
         font-weight: bolder;
@@ -84,7 +84,7 @@
         position: relative;
         left: 7%;
         height: 29px;
-        color: #AF9331;
+        color: black;
 
 
     }
@@ -104,7 +104,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: #AF9331; */
+        /* background-color: black; */
     }
 
     .swiper {
@@ -117,7 +117,7 @@
  
 
     .swiper .swiper-pagination-bullet-active {
-        background-color: #AF9331;
+        background-color: black;
     }
 
 
@@ -157,7 +157,7 @@
         font-size: 25px;
         position: relative;
         top: 30px;
-        background: #AF9331;
+        background: black;
         padding: 20px 25px;
         border-radius: 50px;
         text-decoration: none;
@@ -166,7 +166,7 @@
     nav {
         z-index: 12;
         width: 100%;
-        background-color: #AF9331;
+        background-color: black;
         position: fixed;
         height: 60px;
         left: 0px;
@@ -201,7 +201,7 @@
     }
     nav ul {
         position: absolute;
-        background-color: #AF9331;
+        background-color: black;
         left: 0;
         padding-top: 50px;
         z-index: 2;
@@ -312,7 +312,7 @@
     .all_category h3,
     .all_store h3 {
         text-align: center;
-        color: #AF9331;
+        color: black;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
@@ -340,7 +340,7 @@
     }
 
     .top_middle {
-        background-color: #AF9331;
+        background-color: black;
         height: 68px;
         position: relative;
         top: 0px;
@@ -427,7 +427,7 @@
         left: 3%;
         border-radius: 90px;
         font-size: 20px;
-        background-color: #AF9331;
+        background-color: black;
         position: relative;
     }
 
@@ -441,7 +441,7 @@
         border-radius: 90px;
         font-size: 20px;
         float: right;
-        background-color: #AF9331;
+        background-color: black;
         position: relative;
         top: -11pc;
         left: -4%;
@@ -499,7 +499,7 @@
         border-radius: 5px;
         text-align: center;
         width: 100%;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #all_img {
@@ -519,6 +519,7 @@
         font-size: 18px;
         top: 10px;
         position: relative;
+        color: white;
     }
 
     .discount .all_discount img {
@@ -544,7 +545,7 @@
         top: 88px;
         border-radius: 90px;
         font-weight: bolder;
-        color: #AF9331;
+        color: black;
         font-family: poppins;
         /* height: 36px; */
         background-color: #ffffff;
@@ -619,7 +620,7 @@
         padding-top: 9px;
         font-size: 10px;
         left: 3.4%;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     .foot_head {
@@ -641,7 +642,7 @@
     }
 
     .newsletter h3 {
-        color: #AF9331;
+        color: black;
     }
 
     .newsletter input[type='email']:focus {
@@ -691,7 +692,7 @@
         top: 20px;
         left: -5px;
         position: relative;
-        background-color: #AF9331;
+        background-color: black;
         float: right;
     }
 
@@ -706,7 +707,7 @@
     }
 
     .foot_bottom h3 {
-        color: #AF9331;
+        color: black;
         font-size: 21px;
         width: 100%;
         font-weight: bolder;
@@ -714,7 +715,7 @@
 
     .foot_bottom hr {
         margin-top: 15px;
-        border: 2px solid #AF9331;
+        border: 2px solid black;
         border-radius: 20px;
         width: 51px;
     }
@@ -799,11 +800,11 @@
         padding-top: 11px;
         z-index: 12;
         height: 2pc;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #arrow {
-        color: #AF9331;
+        color: black;
         font-size: 20px;
         position: relative;
         width: 21px;
@@ -874,7 +875,7 @@
 
     .top_selling .all_product .product {
         height: 310px;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #last_hr {
@@ -888,7 +889,7 @@
 
     .top_selling button {
         border: none;
-        color: #AF9331;
+        color: black;
         font-weight: bolder;
         cursor: pointer;
         height: 40px;
@@ -906,7 +907,7 @@
         width: 90%;
         left: 4.7%;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     .payment h2 {
@@ -916,7 +917,7 @@
         font-size: 15px;
         left: 3.6%;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     .socials i {
@@ -928,7 +929,7 @@
         left: 50%;
         font-size: 30px;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     footer {
@@ -1031,7 +1032,7 @@
         position: relative;
         left: 7%;
         height: 29px;
-        color: #AF9331;
+        color: black;
    }
     .fa-chevron-down {
         margin-top: 3px;
@@ -1048,7 +1049,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: #AF9331; */
+        /* background-color: black; */
     }
 
     .swiper {
@@ -1068,7 +1069,7 @@
     }
 
     .swiper .swiper-pagination-bullet-active {
-        background-color: #AF9331;
+        background-color: black;
     }
 
 
@@ -1108,7 +1109,7 @@
         font-size: 25px;
         position: relative;
         top: 30px;
-        background: #AF9331;
+        background: black;
         padding: 20px 25px;
         border-radius: 50px;
         text-decoration: none;
@@ -1117,7 +1118,7 @@
     nav {
         z-index: 12;
         width: 100%;
-        background-color: #AF9331;
+        background-color: black;
         position: fixed;
         height: 60px;
         left: 0px;
@@ -1162,7 +1163,7 @@
 
     nav ul {
         position: absolute;
-        background-color: #AF9331;
+        background-color: black;
         left: 0;
         padding-top: 50px;
         z-index: 2;
@@ -1290,7 +1291,7 @@
     .all_category h3,
     .all_store h3 {
         text-align: center;
-        color: #AF9331;
+        color: black;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
@@ -1318,7 +1319,7 @@
     }
 
     .top_middle {
-        background-color: #AF9331;
+        background-color: black;
         height: 68px;
         position: relative;
         top: 0px;
@@ -1397,7 +1398,7 @@
         left: 3%;
         border-radius: 90px;
         font-size: 20px;
-        background-color: #AF9331;
+        background-color: black;
         position: relative;
     }
 
@@ -1411,7 +1412,7 @@
         border-radius: 90px;
         font-size: 20px;
         float: right;
-        background-color: #AF9331;
+        background-color: black;
         position: relative;
         top: -55%;
         left: -4%;
@@ -1468,7 +1469,7 @@
         border-radius: 5px;
         text-align: center;
         width: 100%;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #all_img1 {
@@ -1512,7 +1513,7 @@
         top: 88px;
         border-radius: 90px;
         font-weight: bolder;
-        color: #AF9331;
+        color: black;
         font-family: poppins;
         /* height: 36px; */
         background-color: #ffffff;
@@ -1569,7 +1570,7 @@
         padding-top: 9px;
         font-size: 10px;
         left: 3.4%;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     .foot_head {
@@ -1590,7 +1591,7 @@
     }
 
     .newsletter h3 {
-        color: #AF9331;
+        color: black;
     }
 
     .newsletter input[type='email']:focus {
@@ -1635,7 +1636,7 @@
         top: 19.4px;
         left: -23%;
         position: relative;
-        background-color: #AF9331;
+        background-color: black;
         float: right;
         border-radius: 0px 50px 50px 0px;
     }
@@ -1648,7 +1649,7 @@
     }
 
     .foot_bottom h3 {
-        color: #AF9331;
+        color: black;
         font-size: 21px;
         width: 100%;
         font-weight: bolder;
@@ -1656,7 +1657,7 @@
 
     .foot_bottom hr {
         margin-top: 15px;
-        border: 2px solid #AF9331;
+        border: 2px solid black;
         border-radius: 20px;
         width: 51px;
     }
@@ -1748,11 +1749,11 @@
         padding-top: 11px;
         z-index: 12;
         height: 2pc;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #arrow {
-        color: #AF9331;
+        color: black;
         font-size: 20px;
         position: relative;
         width: 21px;
@@ -1823,7 +1824,7 @@
 
     .top_selling .all_product .product {
         height: 310px;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #last_hr {
@@ -1837,7 +1838,7 @@
 
     .top_selling button {
         border: none;
-        color: #AF9331;
+        color: black;
         font-weight: bolder;
         cursor: pointer;
         height: 40px;
@@ -1855,7 +1856,7 @@
         width: 90%;
         left: 4.7%;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     .payment h2 {
@@ -1865,7 +1866,7 @@
         font-size: 15px;
         left: 3.6%;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     .socials i {
@@ -1877,7 +1878,7 @@
         left: 70%;
         font-size: 30px;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     footer {
@@ -1946,7 +1947,7 @@
         height: 35px;
         /* left: 28%; */
         border: none;
-        /* background-color: #AF9331; */
+        /* background-color: black; */
         font-weight: bolder;
         color: white;
         /* padding-left: 22px; */
@@ -1964,7 +1965,7 @@
         width: 85%;
         line-height: 20px;
         transition: .5s;
-        background-color: #AF9331;
+        background-color: black;
         position: absolute;
         height: 50px;
         left: 33%;
@@ -1993,7 +1994,7 @@
         display: block;
         opacity: 2;
         transition: .5s;
-        background-color: #AF9331;
+        background-color: black;
         border-radius: 10px;
         color: white;
         font-size: 14;
@@ -2006,7 +2007,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     .swiper {
@@ -2023,7 +2024,7 @@
     }
 
     .swiper .swiper-pagination-bullet-active {
-        background-color: #AF9331;
+        background-color: black;
     }
     .all_product .product .swiper .swiper-wrapper .swiper-slide img {
         position: relative;
@@ -2060,21 +2061,21 @@
         font-size: 25px;
         position: relative;
         top: 30px;
-        background: #AF9331;
+        background: black;
         padding: 20px 25px;
         border-radius: 50px;
         text-decoration: none;
     }
 
     .hero_text a:hover {
-        color: black;
+        color: white;
         text-decoration: none;
     }
 
     nav {
         z-index: 12;
         width: 100%;
-        background-color: #AF9331;
+        background-color: black;
         position: fixed;
         height: 60px;
         left: 0px;
@@ -2084,12 +2085,12 @@
     nav ul li:hover,
     .fa-user:hover,
     .fa-cart-shopping:hover {
-        color: #0000005f;
+        color: whitehite;
     }
 
     a:hover,
     a:focus {
-        color: #af9331;
+        color: white;
         text-decoration: underline
     }
 
@@ -2216,7 +2217,7 @@
     .all_category h3,
     .all_store h3 {
         text-align: center;
-        color: #AF9331;
+        color: black;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
@@ -2244,7 +2245,7 @@
     }
 
     .top_middle {
-        background-color: #AF9331;
+        background-color: black;
         height: 68px;
         position: relative;
         top: 0px;
@@ -2345,7 +2346,7 @@
         border-radius: 5px;
         text-align: center;
         width: 296px;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     .discount .all_discount img {
@@ -2390,7 +2391,7 @@
         top: 88px;
         border-radius: 90px;
         font-weight: bolder;
-        color: #AF9331;
+        color: black;
         font-family: poppins;
         /* height: 36px; */
         background-color: #ffffff;
@@ -2439,7 +2440,7 @@
         width: 100%;
         padding-top: 23px;
         left: 3.4%;
-        background-color: #AF9331;
+        background-color: black;
     }
     footer .foot_head .logo {
         z-index: 3;
@@ -2463,7 +2464,7 @@
     }
 
     footer .foot_head .newsletter h3 {
-        color: #AF9331;
+        color: black;
     }
 
     footer .foot_head .newsletter input[type='email']:focus {
@@ -2505,7 +2506,7 @@
         top: 20px;
         position: relative;
         right: 11%;
-        background-color: #AF9331;
+        background-color: black;
         border-radius: 0px 50px 50px 0px;
     }
 
@@ -2516,14 +2517,14 @@
     }
 
     footer .foot_bottom h3 {
-        color: #AF9331;
+        color: black;
         font-size: 19px;
         font-weight: bolder;
     }
 
     footer .foot_bottom hr {
         margin-top: 15px;
-        border: 2px solid #AF9331;
+        border: 2px solid black;
         border-radius: 20px;
         width: 51px;
     }
@@ -2553,7 +2554,8 @@
     }
 
     footer .foot_bottom ul li:hover {
-        padding-left: 30px;
+        padding-left: none;
+        color: white;
      }
     footer .foot_bottom ul li {
         padding-left: 20px;
@@ -2605,11 +2607,11 @@
         padding-top: 11px;
         z-index: 12;
         height: 2pc;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #arrow {
-        color: #AF9331;
+        color: black;
         font-size: 20px;
         position: relative;
         width: 21px;
@@ -2692,7 +2694,7 @@
 
     .top_selling .all_product .product {
         height: 390px;
-        background-color: #AF9331;
+        background-color: black;
     }
 
     #last_hr {
@@ -2706,7 +2708,7 @@
 
     .top_selling button {
         border: none;
-        color: #AF9331;
+        color: black;
         font-weight: bolder;
         cursor: pointer;
         height: 40px;
@@ -2723,7 +2725,7 @@
         width: 90%;
         left: 4.7%;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     .payment h2 {
@@ -2733,7 +2735,7 @@
         font-size: 17px;
         left: 53.6%;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     .socials i {
@@ -2745,7 +2747,7 @@
         left: 81%;
         font-size: 30px;
         position: relative;
-        color: #AF9331;
+        color: black;
     }
 
     footer {

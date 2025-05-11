@@ -1,54 +1,76 @@
         .wrapper {
-            height: 75pc;
+            height: 43pc;
         }
-        strong{
+        #names {
+            position: relative;
+            top: 12pc;
+            margin-top: 20pc;
+        }
+        strong {
             color: black;
         }
+
         nav ul li {
             font-size: 16px;
         }
-        #subtle{
+
+        #subtle {
             position: relative;
             top: 19px;
             font-size: 14px;
         }
-        .bt_right h3,.bt_right hr, .bt_middle ul li a {
+
+        .bt_right h3,
+        .bt_right hr,
+        .bt_middle ul li a {
             position: relative;
             top: -11px;
         }
+
         .bt_right ul li a {
             position: relative;
             top: -18px;
         }
+
         .bt_right h3 {
             /* top: -20px; */
             z-index: 530;
         }
+
         nav ul li:nth-child(3) {
             color: black;
-            font-size:18px;
+            font-size: 18px;
         }
+
         .container {
             background-color: white;
             align-items: center;
-            
+
         }
+
         .container input[type='text']:focus {
-            outline: #af9331;
-            box-shadow: 0 0 5px #af9331;
-            border: 1px solid #af9331;
+            outline: black;
+            box-shadow: 0 0 5px black;
+            border: 1px solid black;
+        }
+        #address {
+            position: relative;
+            /* top: 2pc; */
+            /* height: 1px; */
         }
         footer {
             position: relative;
             top: 150px;
         }
-        
+
         select option:hover {
-            background-color: #af9331;
+            background-color: black;
         }
+
         select option {
             color: black;
         }
+
         /* images*/
         ol,
         ul {
@@ -130,14 +152,16 @@
  */
         .container {
             border: none;
-        } 
+        }
+
         .btn {
-            border: 1px solid #af9331;
-            background-color: #af9331;
+            border: 1px solid black;
+            background-color: black;
             border-radius: 1px;
         }
-        .btn:hover{
-            background-color: #af9331;
+
+        .btn:hover {
+            background-color: black;
             border: 1px solid black;
         }
 
@@ -152,7 +176,7 @@
         }
 
         .panel-info {
-            border-color: #af9331;
+            border-color: black;
         }
 
         .panel-heading {
@@ -166,21 +190,21 @@
 
         .panel-info>.panel-heading {
             color: #ffffff;
-            border-color: #af9331;
+            border-color: black;
         }
 
         .panel-info>.panel-heading {
-            background-image: linear-gradient(to bottom, #af9331 0px, #af9431d9 100%);
+            background-image: linear-gradient(to bottom, black 0px, #af9431d9 100%);
         }
 
         hr {
-            border-color: #af9331 -moz-use-text-color -moz-use-text-color;
+            border-color: black -moz-use-text-color -moz-use-text-color;
         }
 
         .panel-footer {
             border-bottom-left-radius: 1px;
             border-bottom-right-radius: 1px;
-            border-top: 1px solid #af9331;
+            border-top: 1px solid black;
         }
 
         .btn-link {
@@ -194,9 +218,15 @@
 
         .center {
             position: relative;
-            left: 15%;
-            top: 5pc;
-            width: 115%;
+            /* left: 15%; */
+            align-items: center;
+            top: 4pc;
+
+            width: 129%;
+        }
+        #address {
+            position: relative;
+            top: -4pc;
         }
 
         /** MEDIA QUERIES **/
@@ -226,15 +256,41 @@
         .form-control {
             border-radius: 1px;
         }
-
+        #names {
+            height: 300px;
+            margin-top: 130px;
+        }
         @media only screen and (max-width: 486px) {
+            .wrapper {
+                height: 50pc;
+            }
             .col-xss-12 {
                 width: 100%;
             }
 
+            .container {
+                height: 530px;
+                background-color: white;
+                align-items: center;
+
+            }
+            #address {
+                position: relative;
+                top: -4pc;
+                height: 44pc;
+            }
             .center {
                 position: relative;
-                left: -20px;
+                top: 10pc;
+                left: -15%;
+                overflow: hidden;
+                align-items: center;
+
+            }
+            #form #sub {
+                width: 57%;
+                left: 4%;
+                position: relative;
             }
 
             .cart-img-show {
@@ -242,10 +298,28 @@
             }
 
             .btn-submit-fix {
-                background-color: #af9331;
+                background-color: black;
                 width: 100%;
             }
 
+            #allIcons {
+                position: relative;
+                top: 29%;
+            }
+
+
+        }
+
+        .paying {
+            display: block;
+        }
+
+        .panel-info {
+            bottom: -220px;
+        }
+        #names {
+            position: relative;
+            top: -8pc;
         }
 
         /*

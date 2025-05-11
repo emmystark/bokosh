@@ -4,6 +4,12 @@ from django.urls import reverse
 
 from django.contrib.auth.models import AbstractBaseUser, PermissionsMixin, Group, Permission
 from django.utils.translation import gettext_lazy as _
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
+
+
+from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin, Group, Permission
+from django.db import models
+from django.utils.translation import gettext_lazy as _
 
 
 
@@ -97,12 +103,6 @@ class Product(models.Model):
         return reverse('kobosh:product_detail',
             args=[self.id, self.slug])
 
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
-
-
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin, Group, Permission
-from django.db import models
-from django.utils.translation import gettext_lazy as _
 
 class PaymentUserManager(BaseUserManager):
     def create_user(self, username, password=None, **extra_fields):
