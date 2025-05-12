@@ -32,7 +32,7 @@
 
     ul {
       position: absolute;
-      background-color: #AF9331;
+      background-color: #2be356;
       left: 0;
       padding-top: 50px;
       z-index: 2;
@@ -56,11 +56,11 @@
     }
 
     .links a:hover {
-      background-color: #af9431a3;
+      background-color: #2be35693;
     }
 
     .links a.active {
-      background-color: #af943176;
+      background-color: #2be356;
     }
 
     .links a:nth-child(1) {
@@ -78,7 +78,7 @@
   
     .hamburger {
       position: absolute;
-      background-color: #AF9331;
+      background-color: #2be356;
       z-index: 90;
       padding: 12px;
       top: 10pc;
@@ -94,7 +94,7 @@
       text-align: center;
 
       font-weight: bolder;
-      background-color: #af9331;
+      background-color: #2be356;
       border: none;
     }
 
@@ -110,11 +110,11 @@
     
 
   .links a:hover {
-    background-color: #af9431a3;
+    background-color: #2be356;
   }
 
   .links a.active {
-    background-color: #af943176;
+    background-color: #2be356;
   }
   h1 {
     text-align:center;
@@ -142,7 +142,7 @@
   
   }
   .all .prod {
-    background-color: #af9331;
+    background-color: #2be356;
     height: 16pc;
     border-radius: 20px;
     width: 43%;
@@ -282,22 +282,22 @@
       border-bottom: none;
 
       font-weight: bolder;
-      background-color: #af9331;
+      background-color: #2be356;
     }
 
     .left_side .links a:hover {
-      background-color: #af9431a3;
+      background-color: #2be35673;
     }
 
     .left_side .links a.active {
-      background-color: #af943176;
+      background-color: #2be356;
     }
     #active {
-      background-color: #3eaf3176;
+      background-color: #2be356;
     }
     
     .inactive {
-      background-color: #af9431a3;
+      background-color: #2be356;
     }
     .left_side .links a:first-child {
       border-radius: 20px 20px 0px 0px;
@@ -328,7 +328,7 @@
     .left_side .links h1 {
       font-weight: bolder;
       position: fixed;
-      color: #af9331;
+      color: #2be356;
       top: 0px;
       margin-bottom: 90%;
     }
@@ -339,7 +339,7 @@
 
     .left_side .links hr {
       margin: 0px 2px 20px 2px;
-      border: 2px solid #af9331;
+      border: 2px solid #2be356;
       border-radius: 20px;
       position: relative;
       top: -17px;
@@ -361,7 +361,7 @@
   height: 100%;
   }
     .all .prod {
-      background-color: #af9331;
+      background-color: #2be356;
       height: 22pc;
       border-radius: 20px;
       width: 45%;
@@ -371,7 +371,7 @@
     }
     .all .prod button:hover {
       background-color: black;
-      color: #AF9331;
+      color: #2be356;
       cursor: pointer;
     }
     .all .prod h3,
@@ -454,22 +454,22 @@
       border-bottom: none;
 
       font-weight: bolder;
-      background-color: #af9331;
+      background-color: #2be356;
     }
 
     .left_side .links a:hover {
-      background-color: #af9431a3;
+      background-color: #2be35688;
     }
 
     .left_side .links a.active {
-      background-color: #af943176;
+      background-color: #2be356;
     }
     #active {
-      background-color: #3eaf3176;
+      background-color: #2be356;
     }
     
     .inactive {
-      background-color: #af9431a3;
+      background-color: #2be356;
     }
     .left_side .links a:first-child {
       border-radius: 20px 20px 0px 0px;

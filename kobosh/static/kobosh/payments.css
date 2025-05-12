@@ -38,10 +38,13 @@
         }
 
         nav ul li:nth-child(3) {
+            color: #2be356;
+            font-size: 18px;
+        }
+        nav ul li:nth-child(1) {
             color: white;
             font-size: 18px;
         }
-
         .container {
             background-color: white;
             align-items: center;
@@ -194,7 +197,7 @@
         }
 
         .panel-info>.panel-heading {
-            background-image: linear-gradient(to bottom, black 0px, #af9431d9 100%);
+            background-image: linear-gradient(to bottom, black 0px, #53a673 100%);
         }
 
         hr {

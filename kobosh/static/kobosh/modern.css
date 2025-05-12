@@ -15,6 +15,11 @@
 }
 
 
+footer .foot_head .newsletter input[type='submit'] {
+    position: relative;
+    top: 19px;
+}
+
 /* .animated {
     height: 421px;
     width: 100%;

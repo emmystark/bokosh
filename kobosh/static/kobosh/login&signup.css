@@ -5,7 +5,7 @@
     width: 70%;
     font-size: 15px;
     left:6%;
-    color: #AF9331;
+    color: #53a673;
     z-index: 5;
     position: relative;
     
@@ -26,19 +26,19 @@
 }
 label {
     position: relative;
-    color: #AF9331;
+    color: #53a673;
     /* left: 510px; */
     top: 60px;
 
 }
 label strong {
-    color: #AF9331;
+    color: #53a673;
 
 }
 .create h2 {
     width: 70%;
     position: relative;
-    color: #AF9331;
+    color: #53a673;
     left: -3%;
     width: 100%;
     top: 20px;
@@ -55,7 +55,7 @@ input {
   position: relative;
   top: 30px;
   left: 9px;
-  border: 1.5px solid #AF9331;
+  border: 1.5px solid #53a673;
 }
 .account_create, #create_acc{
     position: relative;
@@ -66,7 +66,7 @@ input {
     border: none;
     top: 60px;
     height: 37px;
-    background-color: #AF9331;
+    background-color: #53a673;
 }
 .create a {
     color: blueviolet;
@@ -78,7 +78,7 @@ input {
 .have {
     position: relative;
     width: 50%;
-    color: #AF9331;
+    color: #53a673;
     left:3px;        
     top: 92px;
     font-size: 15px;
@@ -112,7 +112,7 @@ input {
     top: 8pc;
     overflow: hidden;
     position: relative;
-    color: #AF9331;
+    color: #53a673;
     box-shadow: 2px 2px 4px rgba(159, 37, 37, 0.2);
     border: 1px solid #ccc;
   }
@@ -155,7 +155,7 @@ input {
 }
 #create_acc{
     background-color: rgba(236, 229, 229, 0.527);
-    color: #AF9331;
+    color: #53a673;
     border: 1px solid black;
     font-weight: bolder;
     
@@ -188,7 +188,7 @@ input {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
 footer .foot_head .newsletter input[type='submit'] { 
   position: relative;
-  top: 20px;
+  top: 19px;
 
 }
 }
@@ -201,7 +201,7 @@ select {
   height: 35px;
   left: -10px;
   border: none;
-  background-color: #AF9331;
+  background-color: #53a673;
   font-weight: bolder;
   color: white;
   padding-left: 22px;
@@ -211,7 +211,7 @@ select {
   border-radius: 20px;
 }
 select option {
-  background-color: #AF9331;
+  background-color: #53a673;
   position: relative;
   border-radius: 20px;
   color: white;
@@ -222,4 +222,9 @@ select option {
 select:focus {
   outline: none;
 }
+}
+
+
+fa-user {
+  color: #53a673;
 }
