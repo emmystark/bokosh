@@ -22,7 +22,7 @@
    auto;
   /* padding:10px; */
   max-width: 600px;
-  border: 1px solid rgb(233, 212, 23);
+  border: 1px solid #2be3569e;
   margin-top: 5%;
   /* border-radius: 20px; */
   background: white;
@@ -252,7 +252,7 @@ input[type=text] {
     background-color: rebeccapurple;
     padding:10px 0px;
     max-width: 380px;
-    border: 1px solid rgb(233, 212, 23);
+    border: 1px solid #2be3569e;
     margin-top: 5%;
     /* border-radius: 20px; */
     background: white;

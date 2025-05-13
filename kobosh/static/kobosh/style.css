@@ -166,11 +166,12 @@
     nav {
         z-index: 12;
         width: 100%;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.507);
         position: fixed;
         height: 60px;
         left: 0px;
         top: 0px;
+        backdrop-filter: blur(20px);
     }
 
     nav .logo {
@@ -201,7 +202,7 @@
     }
     nav ul {
         position: absolute;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.601);
         left: 0;
         padding-top: 50px;
         z-index: 2;
@@ -636,13 +637,13 @@
     .newsletter {
         position: relative;
         left: 3.5%;
-        top: 28px;
+        top: -68px;
         text-align: center;
         width: 92%;
     }
 
     .newsletter h3 {
-        color: black;
+        color: white;
     }
 
     .newsletter input[type='email']:focus {
@@ -707,8 +708,8 @@
     }
 
     .foot_bottom h3 {
-        color: black;
-        font-size: 21px;
+        color: white;
+        font-size: 11px;
         width: 100%;
         font-weight: bolder;
     }
@@ -908,7 +909,7 @@
         width: 90%;
         left: 4.7%;
         position: relative;
-        color: black;
+        color: white;
     }
 
     .payment h2 {
@@ -918,7 +919,7 @@
         font-size: 15px;
         left: 3.6%;
         position: relative;
-        color: black;
+        color: white;
     }
 
     .socials i {
@@ -930,7 +931,7 @@
         left: 50%;
         font-size: 30px;
         position: relative;
-        color: black;
+        color: white;
     }
 
     footer {
@@ -1119,11 +1120,12 @@
     nav {
         z-index: 12;
         width: 100%;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.422);
         position: fixed;
         height: 60px;
         left: 0px;
         top: 0px;
+        backdrop-filter: blur(20px);
     }
 
     .logo {
@@ -1164,7 +1166,7 @@
 
     nav ul {
         position: absolute;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.423);
         left: 0;
         padding-top: 50px;
         z-index: 2;
@@ -1592,7 +1594,7 @@
     }
 
     .newsletter h3 {
-        color: black;
+        color: white;
     }
 
     .newsletter input[type='email']:focus {
@@ -1858,7 +1860,7 @@
         width: 90%;
         left: 4.7%;
         position: relative;
-        color: black;
+        color: white;
     }
 
     .payment h2 {
@@ -1868,7 +1870,7 @@
         font-size: 15px;
         left: 3.6%;
         position: relative;
-        color: black;
+        color: white;
     }
 
     .socials i {
@@ -1880,7 +1882,7 @@
         left: 70%;
         font-size: 30px;
         position: relative;
-        color: black;
+        color: white;
     }
 
     footer {
@@ -2033,7 +2035,7 @@
 
 
     .hero_text {
-        top: 279px;
+        top: 330px;
         left: 4.36%;
         z-index: 2;
         position: absolute;
@@ -2075,11 +2077,12 @@
     nav {
         z-index: 12;
         width: 100%;
-        background-color: black;
+        background-color: rgba(0, 0, 0, 0.63);
         position: fixed;
         height: 60px;
         left: 0px;
         top: 0px;
+        backdrop-filter: blur(20px); /* Adjust blur radius as needed (e.g., 5px, 10px, 15px) */
     }
 
     nav ul li:hover,
@@ -2517,7 +2520,7 @@
     }
 
     footer .foot_bottom h3 {
-        color: black;
+        color: white;
         font-size: 19px;
         font-weight: bolder;
     }
@@ -2726,7 +2729,7 @@
         width: 90%;
         left: 4.7%;
         position: relative;
-        color: black;
+        color: white;
     }
 
     .payment h2 {
@@ -2736,7 +2739,7 @@
         font-size: 17px;
         left: 53.6%;
         position: relative;
-        color: black;
+        color: white;
     }
 
     .socials i {
@@ -2748,7 +2751,7 @@
         left: 81%;
         font-size: 30px;
         position: relative;
-        color: black;
+        color: white;
     }
 
     footer {
